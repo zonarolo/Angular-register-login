@@ -1,0 +1,19 @@
+footer { 
+  border-radius: 6px;
+}
+
+footer a {
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+footer a:hover {
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: all .3s ease;
+}
+
+footer > span {
+  color: red;
+  text-decoration: underline;
+}
