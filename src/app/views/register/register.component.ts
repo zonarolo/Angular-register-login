@@ -9,6 +9,10 @@ export class RegisterComponent {
   register = {
     name: '',
     email: '',
-    password: ''
+    password: '',
+  };
+
+  onRegister() {
+    console.log(this.register);
   }
 }

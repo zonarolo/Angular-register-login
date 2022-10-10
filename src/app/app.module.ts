@@ -10,9 +10,7 @@ import { RegisterModule } from './views/register/register.module';
 import { HomeModule } from './views/home/home.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot([]),
@@ -20,9 +18,9 @@ import { HomeModule } from './views/home/home.module';
     ComponentsModule,
     LoginModule,
     RegisterModule,
-    HomeModule
+    HomeModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
