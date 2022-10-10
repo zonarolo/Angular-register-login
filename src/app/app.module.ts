@@ -7,8 +7,7 @@ import { ComponentsModule } from './components/components.module';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginModule } from './views/login/login.module';
 import { RegisterModule } from './views/register/register.module';
-import { UsersModule } from './users/users.module';
-import { DashboardModule } from './dashboard/dashboard.module';
+import { HomeModule } from './views/home/home.module';
 
 @NgModule({
   declarations: [
@@ -19,10 +18,9 @@ import { DashboardModule } from './dashboard/dashboard.module';
     RouterModule.forRoot([]),
     AppRoutingModule,
     ComponentsModule,
-    DashboardModule,
     LoginModule,
     RegisterModule,
-    UsersModule
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
